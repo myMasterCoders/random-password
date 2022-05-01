@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin-top: 0;
+}
+body{
+    position: relative;
+    direction: rtl;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #515151;
+}
+.random{
+    width: 400px;
+    height: 200px;
+    background-color: darkgray;
+    border:2px solid orange;
+    justify-content: center;
+    margin:10px auto;
+}
+.random #text{
+    width: 70%;
+    padding: 20px;
+    background-color: #fff;
+    margin: 5px auto;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
